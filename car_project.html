@@ -80,8 +80,7 @@
                   </figure>
 
                   <h5 style="color: #256E99;" >
-                     This project was inspired by the concept of a self-driving car. The Tracking Car DIY Kit allows you to build a small robotic car that can detect and follow a line on the ground using infrared sensors. In our case, the path was created using tape placed on the floor, which the sensors could detect and follow as the car moved. To begin the project, my partner Lydia and I first practiced soldering on blank electronic metal boards so we could become familiar with the process before working on the actual components. This practice helped us understand how to heat the solder properly, connect components, and avoid creating messy or weak connections. Once we felt we understood the basics, we opened the D2-5 Intelligent Tracking Car DIY Kit and organized our workspace to make sure we had all the required parts, tools, and instructions ready before starting. Keeping the workspace organized made the building process easier and reduced the chances of losing small components. We then followed the step-by-step instructions provided in the guidebook, which were very clear and easy to understand. Although the instructions themselves were straightforward, our biggest challenge during the process was soldering, since it required precision and steady hands. Because it was new to both of us, it took extra time to make sure each connection was secure and properly attached to the board.
-
+                        This project was inspired by the concept of a self-driving car. The Tracking Car DIY Kit allows you to build a small robotic car that detects and follows a line on the ground using infrared sensors. In our case, the path was created using tape placed on the floor, which the car was programmed to track. The system works by using a red light source that shines onto the surface below the car and reflects back to a photoresistor. Because white and black surfaces reflect light differently, the sensor is able to detect changes in reflectivity. When the sensor passes over a white surface, more light is reflected back to the photoresistor, allowing the car to continue moving forward. However, when the sensor detects the darker line, less light is reflected, which changes the resistance in the photoresistor. This signal tells the control circuit to adjust the motors by slowing or stopping one side, causing the car to turn and return to the line. By continuously detecting these changes, the robot is able to follow the taped path automatically. To begin the project, my partner Lydia and I first practiced soldering on blank electronic metal boards so we could become more comfortable with the process before working on the actual components. Once we felt we understood the basics, we opened the D2-5 Intelligent Tracking Car DIY Kit and organized our workspace to make sure we had all the necessary parts and tools. We then followed the <a href="https://m.media-amazon.com/images/I/A1lEYFXJO1L.pdf">instructions</a>. in the guidebook, which were very clear and easy to understand. Although the steps themselves were straightforward, our main challenge was soldering since it was new for both of us and required precision.
 
                   </h5>
               </div>
@@ -96,7 +95,7 @@
                 </video>
 
                 <figcaption style="font-size: 0.85rem; color: #5E0215; margin-top: 4px; text-align: center;">
-                    Figure 2: First Car not working
+                    Figure 2: First Car Malfunctioning
                 </figcaption>
             </figure>
 
@@ -117,7 +116,7 @@
                 </video>
 
                 <figcaption style="font-size: 0.85rem; color: #5E0215; margin-top: 4px; text-align: center;">
-                    Figure 3: Second car working
+                    Figure 3: Fully Functional Second car
                 </figcaption>
             </figure>
 
@@ -132,36 +131,51 @@
                 
 
                   <h5 style="color: #256E99;">
-                        While working on the robot, we also used Onshape to design a cover so the robot would look more like a car. To start, we took measurements of the robot, including its length, width, and height, so the design would fit correctly. Designing the 3D model was relatively straightforward because I already had experience using Onshape from previous projects. It mainly involved adjusting and estimating dimensions to ensure the cover would fit properly over the robot. My partner also contributed by adding additional features to make the design look more like a car. The more challenging part was creating the laser-cut design. Watching a tutorial helped me better understand how to work with the design process in LightBurn. After finishing the basic layout, I added details such as windows, simple headlights using LEDs in the corners, and a license plate number. To prepare the design for laser cutting, I converted the 3D model into a 2D drawing in Onshape and then exported the file into LightBurn, which works similarly to how PrusaSlicer prepares files for 3D printing but is used for laser cutting. Since it was our first time using LightBurn, our initial laser-cut print came out larger than expected, while our 3D-printed cover ended up slightly too small due to measurement miscalculations. After reviewing the dimensions, we adjusted the scale by increasing the size of the 3D print and decreasing the size of the laser-cut design. Once these adjustments were made, the pieces fit together much better and the final result worked as intended.
+                        While working on the robot, we also used Onshape to design a cover so the robot would look more like a car. To start, we took measurements of the robot, including its length, width, and height, so the design would fit correctly. Designing the 3D model was relatively straightforward because I already had experience using Onshape from previous projects. It mainly involved adjusting and estimating dimensions to ensure the cover would fit properly over the robot. My partner also contributed by adding additional features to make the design look more like a car. The more challenging part was creating the laser-cut design. Watching this <a href="https://www.youtube.com/watch?v=YfDmlx2LpFo">tutorial</a> helped me better understand how to work with the design process in LightBurn. After finishing the basic layout, I added details such as windows, simple headlights using LEDs in the corners, and a license plate number. To prepare the design for laser cutting, I converted the 3D model into a 2D drawing in Onshape and then exported the file into LightBurn, which works similarly to how PrusaSlicer prepares files for 3D printing but is used for laser cutting. Since it was our first time using LightBurn, our initial laser-cut print came out larger than expected, while our 3D-printed cover ended up slightly too small due to measurement miscalculations. After reviewing the dimensions, we adjusted the scale by increasing the size of the 3D print and decreasing the size of the laser-cut design. Once these adjustments were made, the pieces fit together much better and the final result worked as intended.
                   </h5>
               </div>
             <!-- Two Bottom Images Row -->
             <div class="row text-center" style="font-family: 'Times New Roman', Times, serif;">
-            <!-- Image Column -->
-            <div class="col-lg-6 mb-3">
-                <img class="rounded shadow"
-                     src="./assets/Setting_torturetest.png"
-                     style="width: 500px; height: 400px; margin: 0 0 0 75px"
-                     alt="PrusaSlicer Settings">
 
-                <p class="mt-2" style="color: #2361cb;">
-                    Figure 3: Settings in PrusaSlicer
-                </p>
-              
-            </div>
+ <div class="row justify-content-center g-4 text-center">
 
-            <div class="col-lg-6 mb-3">
-                  <img class="rounded shadow"
-                     src="./assets/In_progress_torturetest.jpeg"
-                     style="width: 400px; height: 400px; "
-                     alt="PrusaSlicer Settings">
+  <!-- First Video -->
+  <div class="col-lg-6 mb-3">
+    <figure style="width: 400px; margin: 0 auto;">
 
-                <p class="mt-2" style="color: #2361cb;">
-                    Figure 4: In progress picture
-                </p>
-            </div>
-        </div> 
+      <video class="rounded shadow"
+             autoplay muted loop playsinline
+             style="width: 400px; height: 400px; object-fit: cover;">
+        <source src="./assets/IMG_6195.mov" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
 
+      <figcaption style="font-size: 0.85rem; color: #5E0215; margin-top: 6px;">
+        Figure 3: Fully Functional Second Car
+      </figcaption>
+
+    </figure>
+  </div>
+
+  <!-- Second Video -->
+  <div class="col-lg-6 mb-3">
+    <figure style="width: 400px; margin: 0 auto;">
+
+      <video class="rounded shadow"
+             autoplay muted loop playsinline
+             style="width: 400px; height: 400px; object-fit: cover;">
+        <source src="./assets/IMG_6207.mov" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <figcaption style="font-size: 0.85rem; color: #5E0215; margin-top: 6px;">
+        Figure 2: First Car Malfunctioning
+      </figcaption>
+
+    </figure>
+  </div>
+
+</div>
          <!--     <div class="row text-center">
                 <div class="col-lg-6 mb-3">
                     <img class="img-fluid rounded shadow" src="./assets/Name_tag_project_1.png" style="width: 400px; height: 400px;" alt="Step 1 Example">
@@ -284,8 +298,29 @@
 
             </h5>
           </div>
+          <style>
+            /* Style for the clickable h5 */
+            .clickable-heading {
+              color: #D400A5;
+              font-weight: bold;
+              text-decoration: underline;
+              cursor: pointer;
+              transition: color 0.3s, text-decoration 0.3s;
+            }
 
+            /* Hover effect */
+            .clickable-heading:hover {
+              color: #F743D1;
+              text-decoration: none;
+            }
+            </style>
 
+<h5 class="clickable-heading"
+    style="margin-left: 100px;"
+    data-bs-toggle="modal"
+    data-bs-target="#pics">
+    Click here to see settings of design 
+</h5>
 
     
     
