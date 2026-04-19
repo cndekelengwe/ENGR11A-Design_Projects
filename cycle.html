@@ -39,7 +39,7 @@
             </nav>
         
           <h2 style="font-family: 'Nunito'; font-weight: bold; text-align:center; padding-top:30px; color: #B109C8;">
-          Affordable Timed Pill Dispenser
+          Cycle Process for Timed Pill Dispenser
           </h2>
 
         
@@ -48,7 +48,7 @@
                   
 
                   <h5 style="color: #AE15EB;" >
-                    <strong> Problem Statement </strong> - Currently, older adults with dementia or general memory issues struggle to remember to take their medications and manage multiple medications. This means that these individuals may not take their medications at the correct times or at all and might need help from a caretaker. We want these individuals to be able to manage their medications independently and have confidence in themselves.
+                    Our project addresses the challenge that older adults with dementia or memory-related conditions face when trying to manage their medications independently. Many struggle to remember when to take their pills or whether they have already taken them, which can lead to missed doses or double dosing. Based on this, our needs statement is that users require a system that not only organizes their medication clearly but also supports them in taking the correct pills at the correct time without relying heavily on a caregiver. To guide our design, we focused on three main principles: simplicity, reliability, and automation. The device must be easy to understand and use, consistently perform without errors, and reduce the need for memory through automated assistance. Success for our design would mean that the device can accurately stop at the correct compartment every time, dispense the correct pills, and remain easy for users to load and interact with. We plan to measure this through testing stopping accuracy, consistency over repeated rotations, and how easily a user can interact with the system. If the device does not meet these expectations, we will adjust key elements such as compartment spacing, magnet placement, or control logic to improve performance.
                   </h5>
                   
                   <!--<h5 style="color: #4109B5;">
@@ -66,19 +66,18 @@
                 font-family: 'Times New Roman', Times, serif;">
                 <figure style="float: right; width: 300px; margin: 0 15px 15px 0; text-align: center;">
 
-                  <img src="./IMG_7763.jpg"
+                  <img src="./pill_dispenser/cycle1.png"
                        alt="Completed design"
                        class="rounded shadow"
                        style="width: 250px; height: 300px; object-fit: cover; cursor: pointer;">
 
                   <figcaption style="font-size: 0.85rem; margin-top: 6px; color: #7A40ED;">
-                    Figure 1: Both main ideas sketched out
+                    Figure 1: Printed 3d protype
                   </figcaption>
 
                 </figure>
                   <h5 style="color: #AE15EB;" > 
-                        The goal of this cycle was to create a basic working prototype of the pill dispenser to test the core idea: a rotating compartment system that can hold pills and potentially dispense them.
-            
+                        The goal of this cycle was to create a simple physical prototype to test the core concept of a rotating pill dispenser. We wanted to understand how a circular compartment system behaves in terms of movement, spacing, and ease of access before committing to a more complex design.            
                         <ul style="list-style-type: circle;"> 
                             <li>Design initial compartment model in CAD </li>
                             <li> Keep design simple for fast prototyping</li>
@@ -86,12 +85,70 @@
                             <li> Test rotation and accessibility of compartments</li>
                       </li>
                   </ul>
-                 <strong> What We Actually Accomplished :</strong> We successfully created a prototype with 4 compartments instead of 15 to simplify testing. This allowed us to quickly evaluate the concept of a rotating pill container. The prototype confirmed that the circular compartment idea is feasible, but it also showed limitations in capacity and alignment precision.
+                 <strong> What We Actually Accomplished :</strong> We built a 4-compartment prototype to quickly test the idea without overcomplicating the design. This helped us confirm that a rotating system is practical and that users can access compartments easily. However, it also showed that fewer compartments limit functionality and that alignment between sections needs to be precise. This means our design direction is valid, but requires more compartments and improved accuracy for real use.
               </h5>
 
               <h4 style="font-family: 'Nunito'; font-weight: bold; padding-top:10px; color: #B109C8;">
-                    Cycle 2          </h4>
+                    Cycle 2 </h4>
+
+                    <div style="max-width: 1100px; margin: 0 auto; text-align: justify; padding: 0 10px; padding-top: 10px; color: #102c4f;font-family: 'Times New Roman', Times, serif;">
+                <figure style="float: right; width: 300px; margin: 0 15px 15px 0; text-align: center;">
+
+                  <img src="./pill_dispenser/cycle2.png"
+                        alt="Completed design"
+                       class="rounded shadow"
+                       style="width: 250px; height: 300px; object-fit: cover; cursor: pointer;">
+
+                  <figcaption style="font-size: 0.85rem; margin-top: 6px; color: #7A40ED;">
+                    Figure 2: Final 3d Design for pill dispenser
+                  </figcaption>
+
+                </figure>
+                  <h5 style="color: #AE15EB;" > 
+                    The goal of this cycle was to refine the design by expanding it into a full 15-compartment system, while also planning for features like day/night separation and a refill section. We also aimed to incorporate a stopping mechanism into the structure itself.
+                        <ul style="list-style-type: circle;"> 
+                            <li>Redesign model with 15 compartments </li>
+                            <li>Include center section for magnet placement</li>
+                            <li>Ensure equal spacing for accurate rotation</li>
+                            <li> Evaluate design feasibility</li>
+                      </li>
+                  </ul>
+                 <strong> What We Actually Accomplished :</strong> We completed a detailed 15-compartment CAD design with evenly spaced sections and a designated refill slot. We also added central holes for magnets, which are critical for controlling where the system stops. While it hasn’t been printed yet, this step is important because it translates the concept into a design that can support automation and precise positioning.
+              </h5>
+                     
+            <h4 style="font-family: 'Nunito'; font-weight: bold; padding-top:10px; color: #B109C8;">
+                    Cycle 3          </h4>
                     <div style="max-width: 1100px; margin: 0 auto; text-align: justify; padding: 0 10px; padding-top: 10px; color: #102c4f;
+                font-family: 'Times New Roman', Times, serif;">
+                <figure style="float: right; width: 300px; margin: 0 15px 15px 0; text-align: center;">
+
+                  <img src="./pill_dispenser/arduino_samplecode.png"
+                       alt="Completed design"
+                       class="rounded shadow"
+                       style="width: 250px; height: 300px; object-fit: cover; cursor: pointer;">
+
+                  <figcaption style="font-size: 0.85rem; margin-top: 6px; color: #7A40ED;">
+                    Figure 3: Arduino sample code
+                  </figcaption>
+
+                </figure>
+                  <h5 style="color: #AE15EB;" > 
+                       The goal of this cycle was to develop and validate the control system that will allow the pill maker to stop at the correct compartment. This involved creating an Arduino-based mechanism that can detect magnets and use that signal to control motion, ensuring accurate positioning for dispensing.
+            
+                        <ul style="list-style-type: circle;"> 
+                            <li>Write Arduino code for magnet detection</li>
+                            <li> Test sensor response to magnets</li>
+                            <li>Integrate stopping logic into code</li>
+                            <li> Prepare motor connection setup</li>
+                            <li> Test system behavior (code + detection) </li>
+
+                  </ul>
+                 <strong> What We Actually Accomplished :</strong> We developed Arduino code that successfully detects the presence of a magnet and triggers a stop condition. This is a critical step because it establishes how the system will know when it has reached the correct compartment. Although the code has not yet been physically connected to the motor, it confirms that our approach to position control is viable. This directly supports the overall design by ensuring that each compartment can be aligned consistently, which is necessary for reliable dispensing.
+              </h5>
+
+            <h4 style="font-family: 'Nunito'; font-weight: bold; padding-top:10px; color: #B109C8;">
+                    Cycle 4          </h4>
+                   <!--< <div style="max-width: 1100px; margin: 0 auto; text-align: justify; padding: 0 10px; padding-top: 10px; color: #102c4f;
                 font-family: 'Times New Roman', Times, serif;">
                 <figure style="float: right; width: 300px; margin: 0 15px 15px 0; text-align: center;">
 
@@ -103,23 +160,26 @@
                   <figcaption style="font-size: 0.85rem; margin-top: 6px; color: #7A40ED;">
                     Figure 1: Both main ideas sketched out
                   </figcaption>
-
-                </figure>
+              </figure> -->
                   <h5 style="color: #AE15EB;" > 
-                            The goal of this cycle was to redesign the structure into the full 15-compartment system, including 14 pill slots (day/night) and 1 refill/reminder slot, improving functionality and usability.            
+                        The goal of this cycle is to integrate all components into a complete working system and evaluate its real-world performance. This includes assembling the 15-compartment model, connecting the motor and Arduino system, and testing how accurately and reliably the device rotates and stops at each compartment.            
                         <ul style="list-style-type: circle;"> 
-                            <li>Redesign model with 15 compartments </li>
-                            <li>Include center section for magnet placement</li>
-                            <li>Ensure equal spacing for accurate rotation</li>
-                            <li> Evaluate design feasibility</li>
-                      </li>
+                            <li>3D print final 15-compartment model</li>
+                            <li>Insert magnets into center holes</li>
+                            <li>Assemble motor with rotating base</li>
+                            <li>Connect Arduino to motor system</li>
+                            <li>Test full rotation and stopping accuracy</li>
+                            <li>Evaluate durability and material performance</li>
+
+
                   </ul>
-                 <strong> What We Actually Accomplished :</strong> We completed the CAD design for the 15-compartment pill maker, including the layout for day/night pills and a refill section. We also incorporated holes in the center for magnet placement, which will allow the stopping mechanism later. However, we have not yet 3D printed this design, so physical testing has not been completed yet.
+                 <strong> What We Actually Accomplished :</strong> This cycle is not fully completed yet, but significant progress has been made toward integration. We have a finalized design, a working detection system, and a clear assembly plan. The remaining step is to physically connect the motor and test the system in motion. Completing this cycle will allow us to verify if the design works as intended under real conditions, particularly in terms of stopping accuracy, consistency, and durability, which are essential for the device to function as a dependable pill dispenser.
               </h5>
-                     
 
-
-
+<h4 style="font-family: 'Nunito'; font-weight: bold; padding-top:10px; color: #B109C8;">
+                    How the Design Solves the Problem </h4>
+<h5  style="color: #AE15EB;">
+Our design was built from the ground up to directly reflect these needs and principles. The pill maker features a 15-compartment rotating system, with 14 compartments designated for daily and nightly medications and one additional compartment serving as a refill or reminder section. This structure allows users to organize their medication clearly over a full cycle, reducing confusion and supporting routine. To address reliability, we designed the inner core to include precisely placed magnets, which work with an Arduino-controlled sensor to detect position and stop the rotation at the correct compartment. This ensures that the system can consistently align with the intended section for dispensing. The use of a motor to drive rotation introduces automation, allowing the device to move on its own rather than relying on the user to manually track positions. Additionally, the circular layout promotes ease of access and intuitive use, as each compartment follows a predictable sequence. Together, these features create a system that not only organizes medication but actively supports correct usage, helping users maintain independence while reducing the risk of errors. </h5>
 
              
 
