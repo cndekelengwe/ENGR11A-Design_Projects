@@ -1,319 +1,65 @@
-# ENGR11A-Design_Projects
-Projects
-<!DOCTYPE html>
-<!-- saved from url=(0047)https://gleverette.github.io/ENGR11A/prusa.html -->
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Cycle Iterations</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/icon.jpg" />
-        <!-- Custom Google font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body class="d-flex flex-column h-100" style="background-color: #f6f1e7;">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light py-3">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html">
-                        <span class="fw-bolder" style="color: #B109C8;">Portfolio</span>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html" style="color: #B109C8;">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html" style="color: #B109C8;">Resume</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html" style="color: #B109C8;">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html" style="color: #B109C8;">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        
-          <h2 style="font-family: 'Nunito'; font-weight: bold; text-align:center; padding-top:30px; color: #B109C8;">
-          Cycle Process for Timed Pill Dispenser
-          </h2>
+[README.md](https://github.com/user-attachments/files/27055076/README.md ) - change
 
-        
-                <div style="max-width: 1100px; margin: 0 auto; text-align: justify; padding: 0 10px; color: #102c4f;
-                  font-family: 'Times New Roman', Times, serif;">
-                  
+# Automatic Pill Dispenser
+## Overview 
+Our project addresses the challenge that older adults with dementia or memory-related conditions face when trying to manage their medications independently. Many struggle to remember when to take their pills or whether they have already taken them, which can lead to missed doses or double-dosing. Based on this, our needs statement is that users require a system that not only organizes their medication clearly but also supports them in taking the correct pills at the correct time without relying heavily on a caregiver. To guide our design, we focused on three main principles: simplicity, reliability, and automation. The device must be easy to understand and use, consistently perform without errors, and reduce the need for memory through automated assistance. Success for our design would mean that the device can accurately stop at the correct compartment every time, dispense the correct pills, and remain easy for users to load and interact with. We plan to measure this through testing stopping accuracy, consistency over repeated rotations, and how easily a user can interact with the system. If the device does not meet these expectations, we will adjust key elements such as compartment spacing, magnet placement, or control logic to improve performance.
 
-                  <h5 style="color: #AE15EB;" >
-                    Our project addresses the challenge that older adults with dementia or memory-related conditions face when trying to manage their medications independently. Many struggle to remember when to take their pills or whether they have already taken them, which can lead to missed doses or double dosing. Based on this, our needs statement is that users require a system that not only organizes their medication clearly but also supports them in taking the correct pills at the correct time without relying heavily on a caregiver. To guide our design, we focused on three main principles: simplicity, reliability, and automation. The device must be easy to understand and use, consistently perform without errors, and reduce the need for memory through automated assistance. Success for our design would mean that the device can accurately stop at the correct compartment every time, dispense the correct pills, and remain easy for users to load and interact with. We plan to measure this through testing stopping accuracy, consistency over repeated rotations, and how easily a user can interact with the system. If the device does not meet these expectations, we will adjust key elements such as compartment spacing, magnet placement, or control logic to improve performance.
-                  </h5>
-                  
-                  <!--<h5 style="color: #4109B5;">
-                    The files for this project can be accessed through platforms such as <a href="https://3d.nih.gov/collections/prosthetics">NIH 3D Print Exchange</a>  and <a href="https://www.thingiverse.com/thing:1453190">(click here for link)</a>. Overall, locating the files is relatively straightforward, as it mainly involves searching for the design on a 3D printing database. However, when it comes to selecting the correct parts, the process becomes more complicated. The files are not clearly grouped or organized by sections, which makes it difficult to confirm whether all necessary components have been downloaded. For example, during assembly, my group realized we were missing smaller parts such as the whippletree. While this was manageable for us since it was a quick reprint, in situations where time or resources are limited, this could create a more significant issue.
+## Final Design Challenges and Lessons Learned
 
-                  </h5>
-                  <h5 style="color: #4109B5;"> 
-                    When it came to assembling the hand, we initially followed the official instructions provided through the <a href="https://3d.nih.gov/collections/prosthetics">NIH website</a>, along with supplementary videos created by other groups. While these resources were helpful, the process was still somewhat difficult to follow. I found that watching the videos alone was not enough, as I often had to pause and rewatch sections multiple times while working. To improve my understanding, I referred to an alternative step-by-step guide <a href = "https://cdn.thingiverse.com/assets/dd/6b/45/30/fc/Phoenix_v2_assembly_guide.pdf">alternative step-by-step guide</a> that included more detailed explanations and visual references. Although it did not cover every small step, it was easier to follow because the visuals helped fill in the gaps between instructions. Overall, the design itself is fairly accessible, as it is divided into smaller components and does not require a large printer to produce.
-                    </h5>
-              </div> -->
+Our final CAD design aimed to create a rotating pill dispenser system similar to a Ferris wheel, where a circular 15-compartment wheel rotated inside a rectangular support structure. The design included 14 compartments for daily and nightly medication and one additional compartment serving as a refill or reminder section. To automate positioning, magnets were embedded into the rotating inner section, while Hall sensors connected to an Arduino system were intended to detect the magnets and stop the wheel at the correct compartment. The overall goal was to create a system that could reliably organize and dispense medication while supporting user independence and reducing medication errors.
 
-               <h4 style="font-family: 'Nunito'; font-weight: bold; padding-top:10px; color: #B109C8;">
-                    Cycle 1          </h4>
-                    <div style="max-width: 1100px; margin: 0 auto; text-align: justify; padding: 0 10px; padding-top: 10px; color: #102c4f;
-                font-family: 'Times New Roman', Times, serif;">
-                <figure style="float: right; width: 300px; margin: 0 15px 15px 0; text-align: center;">
+However, during testing and evaluation of the final design, we encountered a major issue with the sensor-detection system. Because the wheel continuously rotated, the Hall sensors were not consistently able to detect every magnet as intended. Some magnets were detected successfully, while others were missed depending on alignment, spacing, and distance during rotation. This created inconsistency in stopping accuracy, which reduced the reliability of the dispensing mechanism. As a result, although the design successfully demonstrated the overall concept and functionality of the system, the final STL design was not fully reliable in practice and would require additional redesign iterations before being used as a dependable automated dispenser.
 
-                  <img src="./pill_dispenser/cycle1.png"
-                       alt="Completed design"
-                       class="rounded shadow"
-                       style="width: 250px; height: 300px; object-fit: cover; cursor: pointer;">
+One major lesson learned from this project was the importance of sensor placement and detection range in rotating automated systems. For future improvements, we would recommend using larger magnets and increasing the overall scale of the design to improve the consistency of Hall sensor detection. Increasing spacing and improving alignment tolerance between components would likely make the stopping mechanism more reliable and improve overall system performance.
 
-                  <figcaption style="font-size: 0.85rem; margin-top: 6px; color: #7A40ED;">
-                    Figure 1: Printed 3d protype
-                  </figcaption>
+Below are the STL files for the final design in case anyone would like to experiment with or improve upon the project further. We also made the different design iterations and cycles public so others can see the progression of the project from early concepts to the final design. All CAD files, iterations, and design changes can be found on Onshape through the link attached below. Onshape is free to use, making it accessible for anyone interested in viewing, modifying, or building upon the project.
 
-                </figure>
-                  <h5 style="color: #AE15EB;" > 
-                        The goal of this cycle was to create a simple physical prototype to test the core concept of a rotating pill dispenser. We wanted to understand how a circular compartment system behaves in terms of movement, spacing, and ease of access before committing to a more complex design.            
-                        <ul style="list-style-type: circle;"> 
-                            <li>Design initial compartment model in CAD </li>
-                            <li> Keep design simple for fast prototyping</li>
-                            <li>Observe structural stability and usability</li>
-                            <li> Test rotation and accessibility of compartments</li>
-                      </li>
-                  </ul>
-                 <strong> What We Actually Accomplished :</strong> We built a 4-compartment prototype to quickly test the idea without overcomplicating the design. This helped us confirm that a rotating system is practical and that users can access compartments easily. However, it also showed that fewer compartments limit functionality and that alignment between sections needs to be precise. This means our design direction is valid, but requires more compartments and improved accuracy for real use.
-              </h5>
+[Rectangular Outlier Box File ](https://github.com/rdranikoff/ENGR11a-Spring2026-Website-RD/blob/main/3mm%20thickness%20Snazzy%20Peg.stl)  
+[Wheel Compartements for pills STL File ](https://github.com/rdranikoff/ENGR11a-Spring2026-Website-RD/blob/main/Cap%20for%203mm%20thickness.stl)  
 
-              <h4 style="font-family: 'Nunito'; font-weight: bold; padding-top:10px; color: #B109C8;">
-                    Cycle 2 </h4>
+[ONshape Public File](https://cad.onshape.com/documents/309217a32cb4d046a7bca957/w/9944779888e9e89e632aefbe/e/01b1d22fc2a453b275cd808a)  (PS - copy the link then paste in search bar) 
 
-                    <div style="max-width: 1100px; margin: 0 auto; text-align: justify; padding: 0 10px; padding-top: 10px; color: #102c4f;font-family: 'Times New Roman', Times, serif;">
-                <figure style="float: right; width: 300px; margin: 0 15px 15px 0; text-align: center;">
+## Step-by-Step Circuit Assembly Guide for the Automatic Pill Dispenser
+**Necessary Items** 
 
-                  <img src="./pill_dispenser/cycle2.png"
-                        alt="Completed design"
-                       class="rounded shadow"
-                       style="width: 250px; height: 300px; object-fit: cover; cursor: pointer;">
+Download Arduino or any compatible coding platform for arduino board. 
 
-                  <figcaption style="font-size: 0.85rem; margin-top: 6px; color: #7A40ED;">
-                    Figure 2: Final 3d Design for pill dispenser
-                  </figcaption>
+A small breadboard (you can use basically any breadboard as long as it accommodates the necessary design size) 
 
-                </figure>
-                  <h5 style="color: #AE15EB;" > 
-                    The goal of this cycle was to refine the design by expanding it into a full 15-compartment system, while also planning for features like day/night separation and a refill section. We also aimed to incorporate a stopping mechanism into the structure itself.
-                        <ul style="list-style-type: circle;"> 
-                            <li>Redesign model with 15 compartments </li>
-                            <li>Include center section for magnet placement</li>
-                            <li>Ensure equal spacing for accurate rotation</li>
-                            <li> Evaluate design feasibility</li>
-                      </li>
-                  </ul>
-                 <strong> What We Actually Accomplished :</strong> We completed a detailed 15-compartment CAD design with evenly spaced sections and a designated refill slot. We also added central holes for magnets, which are critical for controlling where the system stops. While it hasn’t been printed yet, this step is important because it translates the concept into a design that can support automation and precise positioning.
-              </h5>
-                     
-            <h4 style="font-family: 'Nunito'; font-weight: bold; padding-top:10px; color: #B109C8;">
-                    Cycle 3          </h4>
-                    <div style="max-width: 1100px; margin: 0 auto; text-align: justify; padding: 0 10px; padding-top: 10px; color: #102c4f;
-                font-family: 'Times New Roman', Times, serif;">
-                <figure style="float: right; width: 300px; margin: 0 15px 15px 0; text-align: center;">
+A couple of different jumper wires - link
 
-                  <img src="./pill_dispenser/arduino_samplecode.png"
-                       alt="Completed design"
-                       class="rounded shadow"
-                       style="width: 250px; height: 300px; object-fit: cover; cursor: pointer;">
+A USB Printer Cable
 
-                  <figcaption style="font-size: 0.85rem; margin-top: 6px; color: #7A40ED;">
-                    Figure 3: Arduino sample code
-                  </figcaption>
+An LED (depending on how much light you want,  get as many LEDs).
 
-                </figure>
-                  <h5 style="color: #AE15EB;" > 
-                       The goal of this cycle was to develop and validate the control system that will allow the pill maker to stop at the correct compartment. This involved creating an Arduino-based mechanism that can detect magnets and use that signal to control motion, ensuring accurate positioning for dispensing.
-            
-                        <ul style="list-style-type: circle;"> 
-                            <li>Write Arduino code for magnet detection</li>
-                            <li> Test sensor response to magnets</li>
-                            <li>Integrate stopping logic into code</li>
-                            <li> Prepare motor connection setup</li>
-                            <li> Test system behavior (code + detection) </li>
+A motor - Gebildet 8pcs DC3V-12V DC Geared Motor, for Aircraft Toys/Robotic Body/Four-Wheel Drive Toy Car, Batch Number: Double Axis 1:48
 
-                  </ul>
-                 <strong> What We Actually Accomplished :</strong> We developed Arduino code that successfully detects the presence of a magnet and triggers a stop condition. This is a critical step because it establishes how the system will know when it has reached the correct compartment. Although the code has not yet been physically connected to the motor, it confirms that our approach to position control is viable. This directly supports the overall design by ensuring that each compartment can be aligned consistently, which is necessary for reliable dispensing.
-              </h5>
+2 regular wires
+A soldering machine is not needed, but is suggested;, it is commonly found in a library. 
 
-            <h4 style="font-family: 'Nunito'; font-weight: bold; padding-top:10px; color: #B109C8;">
-                    Cycle 4          </h4>
-                   <!--< <div style="max-width: 1100px; margin: 0 auto; text-align: justify; padding: 0 10px; padding-top: 10px; color: #102c4f;
-                font-family: 'Times New Roman', Times, serif;">
-                <figure style="float: right; width: 300px; margin: 0 15px 15px 0; text-align: center;">
+A cable to connect the battery 
 
-                  <img src="./IMG_7763.jpg"
-                       alt="Completed design"
-                       class="rounded shadow"
-                       style="width: 250px; height: 300px; object-fit: cover; cursor: pointer;">
+Resistor (higher than 222 ohms) 
 
-                  <figcaption style="font-size: 0.85rem; margin-top: 6px; color: #7A40ED;">
-                    Figure 1: Both main ideas sketched out
-                  </figcaption>
-              </figure> -->
-                  <h5 style="color: #AE15EB;" > 
-                        The goal of this cycle is to integrate all components into a complete working system and evaluate its real-world performance. This includes assembling the 15-compartment model, connecting the motor and Arduino system, and testing how accurately and reliably the device rotates and stops at each compartment.            
-                        <ul style="list-style-type: circle;"> 
-                            <li>3D print final 15-compartment model</li>
-                            <li>Insert magnets into center holes</li>
-                            <li>Assemble motor with rotating base</li>
-                            <li>Connect Arduino to motor system</li>
-                            <li>Test full rotation and stopping accuracy</li>
-                            <li>Evaluate durability and material performance</li>
+A 9V battery clip
 
+DRV8833 Dual H-Bridge DC Motor Driver Module H
 
-                  </ul>
-                 <strong> What We Actually Accomplished :</strong> This cycle is not fully completed yet, but significant progress has been made toward integration. We have a finalized design, a working detection system, and a clear assembly plan. The remaining step is to physically connect the motor and test the system in motion. Completing this cycle will allow us to verify if the design works as intended under real conditions, particularly in terms of stopping accuracy, consistency, and durability, which are essential for the device to function as a dependable pill dispenser.
-              </h5>
-
-<h4 style="font-family: 'Nunito'; font-weight: bold; padding-top:10px; color: #B109C8;">
-                    How the Design Solves the Problem </h4>
-<h5  style="color: #AE15EB;">
-Our design was built from the ground up to directly reflect these needs and principles. The pill maker features a 15-compartment rotating system, with 14 compartments designated for daily and nightly medications and one additional compartment serving as a refill or reminder section. This structure allows users to organize their medication clearly over a full cycle, reducing confusion and supporting routine. To address reliability, we designed the inner core to include precisely placed magnets, which work with an Arduino-controlled sensor to detect position and stop the rotation at the correct compartment. This ensures that the system can consistently align with the intended section for dispensing. The use of a motor to drive rotation introduces automation, allowing the device to move on its own rather than relying on the user to manually track positions. Additionally, the circular layout promotes ease of access and intuitive use, as each compartment follows a predictable sequence. Together, these features create a system that not only organizes medication but actively supports correct usage, helping users maintain independence while reducing the risk of errors. </h5>
-
-             
-
-         <!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<style>
-/* Style for the clickable heading */
-.clickable-heading {
-  color: #35AAF0;
-  font-weight: bold;
-  background-color: #F6F1E7;
-    font-family: "Times New Roman", Times, serif;
-  text-decoration: underline;
-  cursor: pointer;
-  transition: color 0.3s, text-decoration 0.3s;
-}
-
-/* Hover effect */
-.clickable-heading:hover {
-  color: #35AAF0;
-  background-color: #F6F1E7;
-  text-decoration: none;
-}
-/* Modal background and font */
-.modal-content {
-  background-color: #F6F1E7;
-  font-family: "Times New Roman", Times, serif;
-  color: #256E99;
-}
-</style>
-
-
-<!--<h5 class="clickable-heading"
-    style="margin-left:100px;"
-    data-bs-toggle="modal"
-    data-bs-target="#pics">
-    Click here to see settings of design
-</h5> -->
-
-
-<!-- Modal -->
-<div class="modal fade" id="pics" tabindex="-1" aria-hidden="true">
-
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-
-    <div class="modal-content">
-
-      <div class="modal-header">
-        <h5 class="modal-title">Settings</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-
-      <div class="modal-body text-center">
-
-        <div class="row g-4">
-
-          <div class="col-md-6">
-            <img src="./assets/setting1.png"
-                 class="img-fluid rounded shadow"
-                 alt="Failed Screw"
-                 style="width:300px; height: 200px;">
-            <p class="mt-2">Setting of Car design in PRUSA Slicer</p>
-          </div>
-
-          <div class="col-md-6">
-            <img src="./assets/Setting2.png"
-                 class="img-fluid rounded shadow"
-                 alt="Wheel"
-                 style="width:300px; height: 200px;">
-            <p class="mt-2">Setting of Car deign in LightBurn </p>
-          </div>
-
-          <div class="col-md-6">
-            <img src="./assets/IMG_6232.jpeg"
-                 class="img-fluid rounded shadow"
-                 alt="Motor"
-                 style="width:300px; height: 200px;">
-            <p class="mt-2">Laser Print Car Cover</p>
-          </div>
-
-
-          <div class="col-md-6">
-            <img src="./assets/IMG_6233.jpeg"
-                 class="img-fluid rounded shadow"
-                 alt="Motor"
-                 style="width:300px; height: 200px;">
-            <p class="mt-2">Laser Print Car Cover</p>
-          </div>
-
-        <div class="col-md-6 mx-auto">
-            <img src="./assets/IMG_6238.jpeg"
-                 class="img-fluid rounded shadow"
-                 alt="Motor"
-                 style="width:300px; height: 200px;">
-            <p class="mt-2">Result of UnderExtrusion</p>
-          </div> 
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</div>
-
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    
-    
-        <main class="flex-shrink-0"> 
-
-        </main></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
-      div.grammarly-desktop-integration {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select:none;
-        user-select:none;
-      }
-
-      div.grammarly-desktop-integration:before {
-        content: attr(data-content);
-      }
-    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;limited&quot;,&quot;isActive&quot;:false,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
+**Step-By_Step Processs** 
+1. For every Hall sensor, use male-to-female jumper wires to connect them to the Hall sensor and buzzer, remembering which wire colors go where (look at the picture for reference).
+2. Now connect the blue jumper wire (or whatever color you used) to the corresponding pin numbers (2, 3, 4, 5), and connect the purple jumper wire (buzzer) to pin number 6.
+3. Then, using the breadboard, align all the yellow jumper wires (power) on a single row and the black jumper wires (ground) on the row below.
+4. If using the small breadboard, use two male-to-male wires to connect each row to the corresponding row next to it.
+5. Then connect the corresponding buzzer cable to power and ground. (In this case, power was connected through a white jumper cable and ground through a brown cable.)
+6. Next, use male-to-male wires to connect one wire from the 5V pin on the Arduino board to the power row on the breadboard. Then connect another wire from the GND pin on the Arduino board to the corresponding ground row on the breadboard. (Red is power and green is ground.)
+7. Then move on to the Dual H-Bridge; connect IN1 and IN2 to the corresponding pin numbers on the Arduino board, which are pins 10 and 11.
+8. Using another male-to-female connector, connect GND from the Dual H-Bridge to one of the spaces on the GND row of the breadboard.
+9. Then, using 2 wires, carefully strip part of the insulation and wrap the exposed wire around the small flaps at the tip of the motor wire. Bonus points if you solder them together for a stronger connection.
+10. Then use two female-to-female wires to connect the wires to OUT1 and OUT2, connecting the motor to the circuit. (It does not matter which wire goes where; it only determines the direction the motor spins.)
+11. Use an additional male-to-male wire to connect the designated ground row on the breadboard to an additional row on the breadboard (look at the image for an example; it is the blue wire).
+12. Then connect the black wire of the 9V battery clip to the row connected to the GND of the Arduino board.
+13. Using a male-to-female connector, connect the pin labeled EEP on the breadboard, then connect the red wire from the battery to it.
+14. To connect the LED, use a male-to-male connector to connect the LED pin number (in this case, pin 13) to an empty row on the breadboard. (This allows multiple LEDs to share the same pin without requiring additional programming or extra pin numbers.)
+15. Connect both LED pins to male-to-female jumper wires, making sure to remember which wire is connected to which leg. This gives the LEDs more flexibility in placement.
+16. Then take a resistor and place one leg of the resistor into the row connected to the LED pin number and the other leg into the designated ground row on the breadboard.
+17. Finally, connect the LED to both the designated ground row and the LED row. Connect the shorter leg (cathode) to the GND row and the longer leg (anode) to the row connected to the LED pin number.
