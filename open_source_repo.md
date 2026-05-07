@@ -1,5 +1,3 @@
-# ENGR11A-Design_Projects
-Projects
 <!DOCTYPE html>
 <!-- saved from url=(0047)https://gleverette.github.io/ENGR11A/prusa.html -->
 <html lang="en">
