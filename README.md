@@ -106,6 +106,6 @@ Link for Recommended Purchases - https://docs.google.com/document/d/1mJEsCzdOZIL
 3. Continue Iterative Testing Before Final Assembly - Test the motor, sensors, and wheel alignment separately before fully assembling the final design. Small issues become much harder to troubleshoot once everything is integrated together. And finally, good luck with the design.
    
 Link to a presentation recording about our process:
-https://drive.google.com/file/d/1hDMXnCrUFTzj-6_CXgaGcCLH1xbHkZQg/view?usp=sharing 
+https://drive.google.com/file/d/1EsrDOxK41wTlbXEBnxdr2zpXb8wZuB0q/view?usp=sharing 
 
 Link to code used - https://docs.google.com/document/d/1jkpZ4H0KWvsoafJ_Ff6-uf_Do_P35tXl_jxYF_B4JnI/edit?tab=t.nf3fixb14pqj 
