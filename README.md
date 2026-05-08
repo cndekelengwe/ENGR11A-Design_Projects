@@ -8,7 +8,7 @@ Our project addresses the challenge that older adults with dementia or memory-re
 
 Our final CAD design aimed to create a rotating pill dispenser system similar to a Ferris wheel, where a circular 15-compartment wheel rotated inside a rectangular support structure. The design included 14 compartments for daily and nightly medication and one additional compartment serving as a refill or reminder section. To automate positioning, magnets were embedded into the rotating inner section, while Hall sensors connected to an Arduino system were intended to detect the magnets and stop the wheel at the correct compartment. The overall goal was to create a system that could reliably organize and dispense medication while supporting user independence and reducing medication errors.
 
-However, during testing and evaluation of the final design, we encountered a major issue with the sensor-detection system. Because the wheel continuously rotated, the Hall sensors were not consistently able to detect every magnet as intended. Some magnets were detected successfully, while others were missed depending on alignment, spacing, and distance during rotation. This created inconsistency in stopping accuracy, which reduced the reliability of the dispensing mechanism. As a result, although the design successfully demonstrated the overall concept and functionality of the system, the final STL design was not fully reliable in practice and would require additional redesign iterations before being used as a dependable automated dispenser.
+However, during testing and evaluation of the final design, we encountered a major issue with the sensor-detection system. Because the wheel continuously rotated, the Hall sensors were not consistently able to detect every magnet as intended. Some magnets were detected successfully, while others were missed depending on alignment, spacing, and distance during rotation. This created an inconsistency in stopping accuracy, which reduced the reliability of the dispensing mechanism. As a result, although the design successfully demonstrated the overall concept and functionality of the system, the final STL design was not fully reliable in practice and would require additional redesign iterations before being used as a dependable automated dispenser.
 
 One major lesson learned from this project was the importance of sensor placement and detection range in rotating automated systems. For future improvements, we would recommend using larger magnets and increasing the overall scale of the design to improve the consistency of Hall sensor detection. Increasing spacing and improving alignment tolerance between components would likely make the stopping mechanism more reliable and improve overall system performance.
 
@@ -91,15 +91,20 @@ Link for Recommended Purchases - https://docs.google.com/document/d/1mJEsCzdOZIL
   <img src="./stepsforpill/step17.png" height="200"/> </p>
 
 **Step-By_Step Processs For CAD with ONshape** 
-1. Print the Final Cycle Outer Box
-2. Print the Final Cycle Wheel
-3. Print the Final Cycle Medicine Tray
-4. Either print and customize a door to go with design.  Or use clear Acrylic as shown in the picture
+1. Print the Final Cycle Outer Box <p align="center">
+  <img src="./stepsforpill/printbox.png" height="200"/> </p>
+2. Print the Final Cycle Wheel <p align="center">
+  <img src="./stepsforpill/printwheel.png" height="200"/> </p>
+3. Print the Final Cycle Medicine Tray<p align="center">
+  <img src="./stepsforpill/printrec.png" height="200"/> </p>
+4. Either print and customize a door to go with design.  Or use clear Acrylic as shown in the picture.<p align="center">
+  <img src="./stepsforpill/finalproject.jpeg" height="200"/> </p>
 
 **Suggested Steps Forward***
 1. Use Larger and Stronger Magnets - One of the biggest issues we encountered was inconsistent Hall sensor detection. Using larger or stronger magnets would improve detection reliability and reduce missed positions.
 2. Increase the Overall Scale of the Design - The design became too compact, making alignment between the Hall sensors and magnets difficult. A slightly larger wheel and spacing between components would improve consistency and make assembly easier.
-3. Continue Iterative Testing Before Final Assembly - Test the motor, sensors, and wheel alignment separately before fully assembling the final design. Small issues become much harder to troubleshoot once everything is integrated together. And finally, good luck with the design. 
+3. Continue Iterative Testing Before Final Assembly - Test the motor, sensors, and wheel alignment separately before fully assembling the final design. Small issues become much harder to troubleshoot once everything is integrated together. And finally, good luck with the design.
+   
 Link to a presentation recording about our process:
 https://drive.google.com/file/d/1hDMXnCrUFTzj-6_CXgaGcCLH1xbHkZQg/view?usp=sharing 
 
