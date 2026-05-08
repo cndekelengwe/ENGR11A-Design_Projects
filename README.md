@@ -71,7 +71,7 @@ Link for Recommended Purchases - https://docs.google.com/document/d/1mJEsCzdOZIL
 11. Use an additional male-to-male wire to connect the designated ground row on the breadboard to an additional row on the breadboard (look at the image for an example; it is the blue wire).<p align="center">
   <img src="./stepsforpill/step11.png" height="200"/> </p>
 12. Then connect the black wire of the 9V battery clip to the row connected to the GND of the Arduino board.
-13. Using a male-to-female connector, connect the pin labeled EEP on the breadboard, then connect the red wire from the battery to it. <p align="center">
+13. Using a male-to-female connector, connect the pin labeled EEP on the breadboard, then connect the red wire from the battery clip to it. <p align="center">
   <img src="./stepsforpill/step13.png" height="200"/> </p>
 14. To connect the LED, use a male-to-male connector to connect the LED pin number (in this case, pin 13) to an empty row on the breadboard. (This allows multiple LEDs to share the same pin without requiring additional programming or extra pin numbers.) <p align="center">
   <img src="./stepsforpill/step14.png" height="200"/> </p>
@@ -81,14 +81,16 @@ Link for Recommended Purchases - https://docs.google.com/document/d/1mJEsCzdOZIL
   <img src="./stepsforpill/step16.png" height="200"/> </p>
 17. Finally, connect the LED to both the designated ground row and the LED row. Connect the shorter leg (cathode) to the GND row and the longer leg (anode) to the row connected to the LED pin number.
 18. After completing all circuit connections, connect the Arduino board to a computer using a USB cable.
-19. Open the Arduino IDE and upload the pill dispenser code to the Arduino board. Make sure the correct board type and COM port are selected before uploading.
-20. Once the code has successfully uploaded, disconnect the Arduino board from the computer if desired.
-21. Once the code has successfully uploaded, disconnect the Arduino board from the computer
-22. Connect the 9V battery to the battery clip to power the system. The Hall sensors, LEDs, buzzer, and motor should now receive power through the circuit.
-23. Test the system by manually rotating or activating the motor and checking whether the Hall sensors correctly detect the magnets and stop the motor at the intended compartment positions. Also verify that the LEDs and buzzer respond correctly.
-24. If the system does not behave as expected, recheck all wiring connections, sensor alignment, magnet placement, and uploaded code. Small changes in spacing or alignment may significantly affect Hall sensor detection accuracy.
-25. Once testing is complete and the system functions correctly, secure loose wires and components to improve stability and reliability of the final setup. <p align="center">
+19. Open the Arduino IDE and upload the pill dispenser code to the Arduino board. Make sure the correct board type and COM port are selected before uploading. The board should be the same, but the port (circle in blue) depends on your computer <p align="center">
+  <img src="./stepsforpill/step17.png" height="200"/> </p>
+20. Connect the 9V battery to the battery clip to power the system (for the H-board). The Hall sensors, LEDs, buzzer, and motor should now receive power through the circuit. (PS - in the complete picture, the blue drawing shows where the first battery connecting to the H-board goes) 
+21. Test the system by checking whether the Hall sensors correctly detect the magnets and stop the motor at the intended compartment positions. Also, verify that the LEDs and buzzer respond correctly. PS - the motor should always be spinning, stop when it sees a magnet, which is followed by the buzzer and LED lighting. Then, depending on the time chosen (the default time being 20 seconds), it will start spinning after that.
+22. If the system does not behave as expected, recheck all wiring connections, sensor alignment, magnet placement, and uploaded code. Small changes in spacing or alignment may significantly affect Hall sensor detection accuracy.
+23. Once the system works as needed, disconnect the Arduino board from the computer. Plug in the second battery in the Arduino board. (PS - in the complete picture, the pink drawing shows where the second battery connecting to the Arduino board goes) 
+24. Once testing is complete and the system functions correctly, secure loose wires and components to improve the stability and reliability of the final setup. <p align="center">
   <img src="./stepsforpill/step17.png" height="200"/> </p>
 
 Link to a presentation recording about our process:
-https://drive.google.com/file/d/1hDMXnCrUFTzj-6_CXgaGcCLH1xbHkZQg/view?usp=sharing  
+https://drive.google.com/file/d/1hDMXnCrUFTzj-6_CXgaGcCLH1xbHkZQg/view?usp=sharing 
+
+Link to code used - https://docs.google.com/document/d/1jkpZ4H0KWvsoafJ_Ff6-uf_Do_P35tXl_jxYF_B4JnI/edit?tab=t.nf3fixb14pqj 
