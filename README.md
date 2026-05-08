@@ -47,7 +47,7 @@ DRV8833 Dual H-Bridge DC Motor Driver Module H
 
 Link for Recommended Purchases - https://docs.google.com/document/d/1mJEsCzdOZILXJwwprC4P9GmpTi7Cr48AwGSw3bIJmXU/edit?tab=t.0 
 
-**Step-By_Step Processs** 
+**Step-By_Step Processs For Code and Circuit** 
 
 1. For every Hall sensor, use male-to-female jumper wires to connect them to the Hall sensor and buzzer, remembering which wire colors go where (look at the picture for reference). <p align="center">
   <img src="./stepsforpill/step1.png" height="200"/> </p>
@@ -90,6 +90,16 @@ Link for Recommended Purchases - https://docs.google.com/document/d/1mJEsCzdOZIL
 24. Once testing is complete and the system functions correctly, secure loose wires and components to improve the stability and reliability of the final setup. <p align="center">
   <img src="./stepsforpill/step17.png" height="200"/> </p>
 
+**Step-By_Step Processs For CAD with ONshape** 
+1. Print the Final Cycle Outer Box
+2. Print the Final Cycle Wheel
+3. Print the Final Cycle Medicine Tray
+4. Either print and customize a door to go with design.  Or use clear Acrylic as shown in the picture
+
+**Suggested Steps Forward***
+1. Use Larger and Stronger Magnets - One of the biggest issues we encountered was inconsistent Hall sensor detection. Using larger or stronger magnets would improve detection reliability and reduce missed positions.
+2. Increase the Overall Scale of the Design - The design became too compact, making alignment between the Hall sensors and magnets difficult. A slightly larger wheel and spacing between components would improve consistency and make assembly easier.
+3. Continue Iterative Testing Before Final Assembly - Test the motor, sensors, and wheel alignment separately before fully assembling the final design. Small issues become much harder to troubleshoot once everything is integrated together. And finally, good luck with the design. 
 Link to a presentation recording about our process:
 https://drive.google.com/file/d/1hDMXnCrUFTzj-6_CXgaGcCLH1xbHkZQg/view?usp=sharing 
 
