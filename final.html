@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://gleverette.github.io/ENGR11A/prusa.html -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Building and Assembling the V-2 Phoenix Hand</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/icon.jpg" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100" style="background-color: #f6f1e7;">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html">
+                        <span class="fw-bolder" style="color: #6521ED;">Portfolio</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="index.html" style="color: #6521ED;">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="resume.html" style="color: #6521ED;">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html" style="color: #6521ED;">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html" style="color: #6521ED;">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        
+          <h2 style="font-family: 'Nunito'; font-weight: bold; text-align:center; padding-top:30px; color: #6521ED;">
+          Building and Assembling the V-2 Phoenix Hand
+          </h2>
+
+        <!-- Main Content Row 
+        <div class="row align-items-start mb-4">
+            Writing Column (takes more space) 
+            <div class="col-lg-7" style="text-align: justify; padding-left: 60px;">
+                <h5>
+                  To create my nametag, I began by downloading and setting up PrusaSlicer by adjusting the default settings to match the Prusa MINI+ and PLA filament. After confirming that the settings were correct, I downloaded the provided 3MF nametag file and opened it in PrusaSlicer. I then edited the text to include my first and last name and sliced the model. Once the file was sliced, I saved it to a USB drive and safely ejected it from my computer. Next, I selected my desired filament and went to the printer to load the filament, which turned out to be the most 
+                  </h5>
+                </div>
+               <Image Column ->
+                <div class="col-lg-5">
+                    <img class="img-fluid rounded shadow" src="./assets/picture.jpeg" style="width: 300px; height: 200px;" alt="Nametag Example">
+                </div>
+               
+              </div>
+              <div class="row justify-content-center">
+                  <div class="col-lg-8" style="text-align: justify; padding-left: 60px;">
+                <h5>
+                      challenging part of the process. After a couple of attempts, I was able to understand how the filament loading system worked, and loaded the filament. When the printer paused for the filament change, I carefully switched filaments and resumed printing. Overall, this process helped me better understand the full workflow from digital design to physical output, as well as the software settings and printer behavior. This project taught me patience, attention to detail, and the importance of troubleshooting in 3D printing.
+                  </h5>
+            </div> -->
+              <!--<h5>
+                      challenging part of the process. After a couple of attempts, I was able to understand how the filament loading system worked, and loaded the filament. When the printer paused for the filament change, I carefully switched filaments and resumed printing. Overall, this process helped me better understand the full workflow from digital design to physical output, as well as the software settings and printer behavior. This project taught me patience, attention to detail, and the importance of troubleshooting in 3D printing.
+                  </h5>
+                -->
+                <div style="max-width: 1100px; margin: 0 auto; text-align: justify; padding: 0 10px; color: #102c4f;
+                  font-family: 'Times New Roman', Times, serif;">
+                  <figure style="float: right; width: 300px; margin: 0 0 10px 25px; text-align: center;">
+
+                  <img src="./AssistedTech/setup.jpeg"
+                       alt="Nametag Example"
+                       style="float: right; width: 300px; height: 300px; margin: 0 0 15px 15px;"
+                       class="rounded shadow">
+                      <figcaption style="font-size: 0.85rem; margin-top: 6px; color: #7A40ED;">
+                          Figure 1: Workplace Setup 
+                      </figcaption>
+                  </figure>
+
+                  <h5 style="color: #4109B5;" >
+Throughout this design process, my team and I focused on addressing a real-world problem faced by many older adults with dementia or memory-related conditions: difficulty managing medications independently. Our goal was to design an automated pill dispenser that could organize medication clearly, rotate automatically, and stop at the correct compartment using a sensor-based system. We defined success based on several measurable criteria, including whether the dispenser could consistently stop at the intended compartment, whether the Hall sensors reliably detected the magnets, and whether the system could support ease of use and independence for the user. Although the prototype was not fully functional in its final integrated form, we were still able to validate important parts of the design process through testing individual systems and evaluating the reliability of the detection mechanism.                  </h5>
+                  <h5 style="color: #4109B5;">
+                  One of our main validation tests involved measuring how consistently the Hall sensors could detect magnets while the wheel rotated. During testing, some magnets were successfully detected while others were missed because of spacing, alignment, and distance between the magnets and sensors. If the design were fully functional, we would quantitatively measure success by tracking the percentage accuracy of successful stops over repeated rotations, as well as measuring response time and alignment precision between compartments. We also evaluated the design qualitatively by considering whether the compartment layout would be intuitive and accessible for users who struggle with memory management. Feedback from others and our own testing process showed that the organizational structure of the 15 compartments was clear and practical, even though the stopping mechanism still required refinement.k reprint, in situations where time or resources are limited, this could create a more significant issue.
+
+                  </h5>
+                  <h5 style="color: #4109B5;"> 
+The iteration cycles taught me that engineering design is rarely a straight path and that failure is often one of the most valuable parts of the process. The CAD redesigns made the biggest difference because they directly impacted the spacing, alignment, and physical feasibility of the rotating system. Through multiple iterations, we realized that even small adjustments in scale or placement could significantly affect sensor performance. Our CAM and electronics changes also helped us better understand how code, motors, and sensors interact in a real physical system rather than only in theory. When our original stopping mechanism proved inconsistent, we pivoted by analyzing the source of the issue instead of abandoning the concept entirely. This led us to consider larger magnets, increased spacing, and scaling up the design to improve reliability.                    </h5>
+              </div>
+              <div style="max-width: 1100px; margin: 0 auto; text-align: justify; padding: 0 10px; padding-top: 10px; color: #102c4f;
+                font-family: 'Times New Roman', Times, serif;">
+                <figure style="float: left; width: 300px; margin: 10px 25px 15px 0; text-align: center;">
+                <video class="rounded shadow"
+                       autoplay muted loop playsinline
+                       style="width: 300px; height: 200px; object-fit: cover; display: block; margin: 0 auto;">
+                    <source src="./AssistedTech/printingprocess.MOV" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <figcaption style="font-size: 0.85rem; color: #7A40ED; margin-top: 4px; text-align: center;">
+                    Figure 2: Printing in Progress
+                </figcaption>
+            </figure>
+
+                  <h5 style="color: #4109B5;">
+If I had more time, I would focus primarily on refining the integration between the mechanical and electrical systems. I would redesign the structure to allow more consistent Hall sensor positioning and improve tolerance between rotating and stationary components. I would also perform more extensive quantitative testing, including repeated automated trials to collect accuracy data and identify failure patterns. In addition, I would experiment with stronger magnets, different sensor placements, and potentially alternative detection systems. Overall, this project taught me the importance of iteration, testing, and adaptability in engineering design. Even though the final prototype was not fully successful in every aspect, the process provided valuable insight into how complex systems are developed, tested, and improved over time.                  </h5>
+              </div>
+
+            <div style="max-width: 1100px; margin: 0 auto; text-align: justify; padding: 0 10px; color: #102c4f;
+                  font-family: 'Times New Roman', Times, serif;">
+                 <figure style="float: right; width: 300px; text-align: center;">
+                <video class="rounded shadow"
+                       autoplay muted loop playsinline
+                       style="width: 285px; height: 200px; object-fit: cover; margin-left:15px;">
+                    <source src="./AssistedTech/printingprocess1.MOV" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <figcaption style="font-size: 0.85rem; color: #7A40ED; margin-top: 4px; text-align: center;">
+                     Figure 3: Printing in Progress
+                </figcaption>
+            </figure>
+
+                  <h5 style="color: #4109B5;" >
+                    One of the most challenging aspects of the build was managing the stringing system, as it required careful placement, routing, and tensioning to function properly. Small mistakes in string placement or uneven tension could significantly affect how the fingers moved. For improvement, I would suggest including more detailed instructions, especially with additional images or diagrams showing exactly where each string should be placed at each step. Another difficult step was shaping the gauntlet to fit comfortably with the hand. The instructions showed the final result but did not clearly explain how to achieve the correct shape or how much force or heat should be applied. A possible improvement would be to include guidance on heating the PLA safely, such as using a controlled heat source to gradually bend the material without damaging it. Additionally, providing a reference shape, template, or mold could help ensure more consistent results across builds. As an alternative approach, the gauntlet could be redesigned in a CAD software like Onshape to better match the hand and reduce the need for manual bending, even if this increases print time slightly.
+
+                  </h5>
+              </div>
+               <div style="max-width: 1100px; margin: 0 auto; text-align: justify; padding: 0 10px; padding-top: 10px; color: #102c4f;
+                font-family: 'Times New Roman', Times, serif;">
+                <figure style="float: left; width: 300px; margin: 0 15px 15px 0; text-align: center;">
+
+                  <img src="./AssistedTech/image.png"
+                       alt="Completed design"
+                       class="rounded shadow"
+                       style="width: 250px; height: 300px; object-fit: cover; cursor: pointer;">
+
+                  <figcaption style="font-size: 0.85rem; margin-top: 6px; color: #7A40ED;">
+                    Figure 4: Completed design 
+                  </figcaption>
+
+                </figure>
+
+
+                  <h5 style="color: #4109B5;">
+                        As a contribution to the open-source community, my partner and I created a <a href ="file:///Users/candacendekelengwe/Downloads/Inventory%20-%20Pheonix.pdf">list</a> of all the required parts needed to assemble a fully functional Phoenix Hand. This helps simplify the process for future users by ensuring that no components are overlooked or accidentally skipped during printing. We also encountered an issue with scaling, where even after increasing the size of the hand to 150%, some parts such as the screws did not fit securely and would fall out during use. Based on this, we would recommend scaling smaller components slightly more, around 160 - 165%, to ensure a tighter and more reliable fit. Additionally, we designed an extra gauntlet attachment that can hold spare screws and small parts, which connects using Velcro straps. This small addition improves usability, organization, and convenience for the user, especially when adjustments or repairs are needed.              </div>
+               <div style="max-width: 1100px; margin: 0 auto; text-align: justify; padding: 0 10px; padding-top: 10px; color: #102c4f;
+                font-family: 'Times New Roman', Times, serif;">
+                
+
+                  <h5 style="color: #4109B5;">
+                       This project highlights several important ideas related to inclusive design and the ethics of creating assistive technology. One key principle from the Microsoft Inclusive Design Toolkit is designing for one while extending to many. The Phoenix Hand is designed to meet the needs of individuals with upper limb differences, but because it is open source, it can be adapted and modified to fit a wider range of users. This flexibility makes it more accessible compared to traditional prosthetics, which are often expensive and less customizable. Another important idea is recognizing exclusion. While this design makes assistive technology more affordable, it still assumes that users have access to a 3D printer, materials, and the technical knowledge needed to assemble the device. This means that some individuals, especially those without access to these resources, may still be left out.
+
+                        Additionally, this project raises questions about the limitations of a volunteer-driven model for medical or assistive devices. While open-source designs allow for collaboration and innovation, they may lack consistency in documentation, quality control, and reliability. As seen in this project, unclear instructions and missing parts can make the process more difficult, which could be a bigger issue in more critical situations. Overall, while open-source assistive technology increases accessibility and encourages community-driven solutions, it also depends heavily on user skill and available resources, which can limit who truly benefits from it.
+
+                  </h5>
+                  <h5 style="color: #4109B5;">
+                    Through this project, one area that stood out for further exploration is improving the usability and reliability of open-source assistive devices, especially during the assembly process. A key challenge was the lack of clear instructions and difficulty in achieving precise alignment and tension, which directly affected how well the hand functioned. This suggests an opportunity to design tools, guides, or modified components that make assembly more intuitive and consistent. For a future project, I would be interested in focusing on how to simplify the building process or improve grip functionality, particularly for everyday tasks that require stability and coordination.
+                  </h5>
+              </div>
+              
+              <div class="row text-center" style="font-family: 'Times New Roman', Times, serif;">
+            <!-- Image Column -->
+            <div class="col-lg-6 mb-3">
+                <img class="rounded shadow"
+                     src="./AssistedTech/settings1.png"
+                     style="width: 500px; height: 400px; margin: 0 0 0 75px"
+                     alt="PrusaSlicer Settings">
+
+                <p class="mt-2" style="color: #7A40ED;">
+                    Figure 5: Settings 1
+                </p>
+              
+            </div>
+
+            <div class="col-lg-6 mb-3">
+                  <img class="rounded shadow"
+                     src="./AssistedTech/settings2.png"
+                     style="width: 500px; height: 400px; "
+                     alt="PrusaSlicer Settings">
+
+                <p class="mt-2" style="color: #7A40ED;">
+                    Figure 6: Settings 2
+                </p>
+            </div>
+        </div>
+         <!--     <div class="row text-center">
+                <div class="col-lg-6 mb-3">
+                    <img class="img-fluid rounded shadow" src="./assets/Name_tag_project_1.png" style="width: 400px; height: 400px;" alt="Step 1 Example">
+                    
+                    <p> Settings of Prusa SLicer </p>
+                    <video class="video-fluid rounded shadow" autoplay muted loop playsinline
+                       style="width: 400px; height: 400px;">
+                    <source src="./assets/IMG_5884.mov" type="video/mp4">
+                </video>
+
+    <p style="margin-top: 15px; text-align: justify;">
+        This video demonstrates the 3D printing process used to create the nametag. It highlights the printer setup, filament loading, and the final print outcome.
+    </p> 
+</div>
+                </div> -->
+                <!-- <div class="col-lg-6 mb-3">
+                    <img class="img-fluid rounded shadow" src="https://dummyimage.com/300x300/6c757d/343a40" alt="Step 2 Example">
+                    <p>Step 2: Loading the filament and printing</p>
+                </div> -->
+                <!--<div style="max-width: 900px; margin: 0 auto; text-align: center;">
+                    <video class="video-fluid rounded shadow" autoplay muted loop playsinline
+                       style="width: 400px; height: 400px;">
+                    <source src="./assets/IMG_5884.mov" type="video/mp4">
+                </video>
+
+    <p style="margin-top: 15px; text-align: justify;">
+        This video demonstrates the 3D printing process used to create the nametag. It highlights the printer setup, filament loading, and the final print outcome.
+    </p>
+</div>
+            </div> -->
+
+    
+        
+        <!--<h2 style="font-family: &#39;Nunito&#39;; font-weight: bold; text-align:center; padding-top:30px;">
+            Name tag
+        </h2>
+        <div class="row">
+            <div class="col-lg-4" style="text-align: justify; padding-left:60px justify; padding-right: -20px;">
+                <p> 
+                    To create my nametag, I began by downloading and setting up PrusaSlicer by adjusting the default settings to match the Prusa MINI+ and PLA filament. After confirming that the settings were correct, I downloaded the provided 3MF nametag file and opened it in PrusaSlicer. I then edited the text to include my first and last name and sliced the model. Once the file was sliced, I saved it to a USB drive and safely ejected it from my computer. Next, I selected my desired filament and went to the printer to load the filament, which turned out to be the most challenging part of the process. After a couple of attempts, I was able to understand how the filament loading system worked, and loaded the filament. When the printer paused for the filament change, I carefully switched filaments and resumed printing. Overall, this process helped me better understand the full workflow from digital design to physical output, as well as the software settings and printer behavior.
+                   <br><br>
+
+
+
+            </div>
+            
+
+        <p style="text-align:justify; padding-left:50px; padding-right:80px;">
+            My partner and I were aware of the delicate parts on the circuit board; part of maintaining that care is ensuring wires aren't bent at awkward angles 
+            or forcibly plugged in, potentially causing irreparable damage. Although the instructions were clear, we were uncomfortable with how the LCD cable was
+            entering the circuit box. I would have adjusted the opening into the box by centering it with the LCD cable port in order to prevent any bent wires or
+            tight angles for insertion. This change would actually be feasible since the Prusa Mini+ has inherent parts that were also 3D printed, including the circuit box, 
+            highlighting the versatility and usability of any 3D printed product.
+            
+        </p>
+
+        <div class="row">
+            <div class="col-lg-4" style="text-align: justify; padding-left:60px">
+                <p> 
+                    The next tricky part of the assembly was lining up the Y-axis assembly, the heatbed, with the vertical XZ-axis assembly.
+                    This is when the instructions became less clear as we had to line up opposing holes, insert a screw, and tighten it with little to no visibility on where 
+                    the holes were and how far in the screw was. If I were to change this part of the assembly process, I would have different-colored markings on the XZ and Y-axis parts 
+                    to help users match what holes line up with one another and where on the printer they should be located.<br><br>
+                    
+                    After this point, many of the instructions were straightforward. We prepared the remaining LCD parts and connected the Y-axis motor to the circuit board, which would allow the heatbed 
+                    to move during the printing process in order to reach different parts of the build. Next was the filament sensor, which we had to securely push onto the PTFE tube, a type of transparent and flexible tubing that would allow easy passage 
+                    for the printing filament. Although slightly difficult to properly determine if the tube was fastened properly, the manual provided ways for us to check both visually and by feel.<br><br> 
+
+                    Rearranging the wires, covering the circuit box, and assembling the filament spool holder was all that was left before we had our completed Prusa Mini+ 3D Printer! The spool holder was extremely simple as 
+                    it was merely two tracks, each one containing two wheels, that could be adjusted to accomodate varying spool sizes. Filament needs to be properly loaded before printing, but during the printing process, the spool needs to easily unravel in order to have sufficient material. 
+                    I would have preferred a spool holder that would hold the filament perpendicular to the ground, allowing the filament to work with gravity as it's pulled. This would limit the risk of filament getting tangled in the spool or not being pulled into the printer.
+                     --ON PRINTING - need to highlight how the printer may not pick up the filament properly, so you print air and waste materials
+                    (have the gif example highlighting what happened to it) 
+                </p>
+                
+            </div>
+            <div class="col-lg-4" style="column-width: 50px">
+                <img class="center" src="./Personal - Start Bootstrap Template_files/PartJoin1.jpg" style="margin-top: 10px; width: 650px; height: auto;  transform: rotate(360deg); padding-right:60px;"> 
+                
+            </div>
+            <div class="col-lg-4" style=" margin-right:-120px">
+                <img class="center" src="./Personal - Start Bootstrap Template_files/PrusaScrew.jpg" style="margin-top: 23px; width: 375px; height: auto;  transform: rotate(90deg); ">
+                <img class="center" src="./Personal - Start Bootstrap Template_files/PrusaComplete.jpg" style="margin-top: 120px; width: 375px; height: auto;  transform: rotate(90deg); ">
+            </div>
+            <div class="col-lg-3 offset-lg-4 text-center" style="border: 5px solid #e21e80; text-align: justify; margin-top: -425px; padding: 5px; margin-left: 600px; margin-bottom: 250px">
+                <h3 style="font-weight:bold">
+                    From unpacking materials<br> to our finished printer:<br>the entire process took<br>
+                    1.5 hours to complete!
+                </h3>
+            </div>  
+        </div>
+
+        <h2 style="font-family: &#39;Nunito&#39;; font-weight: bold; text-align:center; padding-top:80px;">
+            Printing: Using the PrusaSlicer Software
+        </h2>
+
+        <div class="row">
+            <div class="col-lg-4" style="text-align: justify; padding-left:60px">
+                <p> 
+                    To become familiar with the printer's operating capabilites, we had to begin a print. Starting with the #3DBenchy tugboat, also known as "the 
+                    jolly 3D printing torture test", is a good way for us to determine if the printer is operating as expected while testing its production limits. The 
+                    end goal is using these to prints to adjust hardware and software settings for optimal results.<br><br>
+                    
+                    The following dimensions are used to ensure print quality: 
+                    EXTRA NOTE: trouble inserting the filament for callibration and printing pieces (gear photo) -->
+                    <!-- First struggle was with the filament loading. work to get in and callibrated. result was the first print. second thing 
+                    was an initial non-understanding of where the print was coming from (just loaded in whatever was on the joystick)
+                    
+                    Prusa Slicer is how we transition from CAD to CAM, slicing the object into tangible and workable parts that the computer can then 
+                    build its layers up on. Here are the details on the specifics  -->
+          <!-- <div style="max-width: 1100px; margin: 0 auto; text-align: justify; padding: 0 10px; padding-top: 0px; color: #256E99; 
+            font-family: 'Times New Roman', Times, serif;"> 
+          <h2 style="font-family: 'Times New Roman', Times, serif; font-weight: bold; text-align:center; margin-top: 10px; color: #35AAF0;">
+    Project Rating
+</h2>
+          <h5 style="color: #256E99;">
+                Overall, this project was a valuable learning experience because it combined electronics, mechanical assembly, and digital design. It helped me develop new skills such as soldering, troubleshooting hardware issues, and designing parts using both 3D modeling and laser cutting software. Although we faced challenges during the first build, rebuilding the robot allowed us to better understand how the components work together and how small mistakes can affect the final result. In the end, the project showed how iteration, problem-solving, and teamwork are important parts of the engineering and design process.
+
+            <br><br>
+
+            </h5>
+          </div> -->
+         <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+/* Style for the clickable heading */
+.clickable-heading {
+  color: #35AAF0;
+  font-weight: bold;
+  background-color: #F6F1E7;
+    font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+/* Hover effect */
+.clickable-heading:hover {
+  color: #35AAF0;
+  background-color: #F6F1E7;
+  text-decoration: none;
+}
+/* Modal background and font */
+.modal-content {
+  background-color: #F6F1E7;
+  font-family: "Times New Roman", Times, serif;
+  color: #256E99;
+}
+</style>
+
+
+<!--<h5 class="clickable-heading"
+    style="margin-left:100px;"
+    data-bs-toggle="modal"
+    data-bs-target="#pics">
+    Click here to see settings of design
+</h5> -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="pics" tabindex="-1" aria-hidden="true">
+
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Settings</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body text-center">
+
+        <div class="row g-4">
+
+          <div class="col-md-6">
+            <img src="./assets/setting1.png"
+                 class="img-fluid rounded shadow"
+                 alt="Failed Screw"
+                 style="width:300px; height: 200px;">
+            <p class="mt-2">Setting of Car design in PRUSA Slicer</p>
+          </div>
+
+          <div class="col-md-6">
+            <img src="./assets/Setting2.png"
+                 class="img-fluid rounded shadow"
+                 alt="Wheel"
+                 style="width:300px; height: 200px;">
+            <p class="mt-2">Setting of Car deign in LightBurn </p>
+          </div>
+
+          <div class="col-md-6">
+            <img src="./assets/IMG_6232.jpeg"
+                 class="img-fluid rounded shadow"
+                 alt="Motor"
+                 style="width:300px; height: 200px;">
+            <p class="mt-2">Laser Print Car Cover</p>
+          </div>
+
+
+          <div class="col-md-6">
+            <img src="./assets/IMG_6233.jpeg"
+                 class="img-fluid rounded shadow"
+                 alt="Motor"
+                 style="width:300px; height: 200px;">
+            <p class="mt-2">Laser Print Car Cover</p>
+          </div>
+
+        <div class="col-md-6 mx-auto">
+            <img src="./assets/IMG_6238.jpeg"
+                 class="img-fluid rounded shadow"
+                 alt="Motor"
+                 style="width:300px; height: 200px;">
+            <p class="mt-2">Result of UnderExtrusion</p>
+          </div> 
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    
+        <main class="flex-shrink-0"> 
+
+        </main></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;limited&quot;,&quot;isActive&quot;:false,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
