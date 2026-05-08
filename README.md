@@ -82,7 +82,7 @@ Link for Recommended Purchases - https://docs.google.com/document/d/1mJEsCzdOZIL
 17. Finally, connect the LED to both the designated ground row and the LED row. Connect the shorter leg (cathode) to the GND row and the longer leg (anode) to the row connected to the LED pin number.
 18. After completing all circuit connections, connect the Arduino board to a computer using a USB cable.
 19. Open the Arduino IDE and upload the pill dispenser code to the Arduino board. Make sure the correct board type and COM port are selected before uploading. The board should be the same, but the port (circle in blue) depends on your computer <p align="center">
-  <img src="./stepsforpill/step17.png" height="200"/> </p>
+  <img src="./stepsforpill/portspic.png" height="200"/> </p>
 20. Connect the 9V battery to the battery clip to power the system (for the H-board). The Hall sensors, LEDs, buzzer, and motor should now receive power through the circuit. (PS - in the complete picture, the blue drawing shows where the first battery connecting to the H-board goes) 
 21. Test the system by checking whether the Hall sensors correctly detect the magnets and stop the motor at the intended compartment positions. Also, verify that the LEDs and buzzer respond correctly. PS - the motor should always be spinning, stop when it sees a magnet, which is followed by the buzzer and LED lighting. Then, depending on the time chosen (the default time being 20 seconds), it will start spinning after that.
 22. If the system does not behave as expected, recheck all wiring connections, sensor alignment, magnet placement, and uploaded code. Small changes in spacing or alignment may significantly affect Hall sensor detection accuracy.
