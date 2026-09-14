@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Final Refelction</title>
+        <title>Affordable Timed Pill Dispenser</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/icon.jpg" />
         <!-- Custom Google font-->
@@ -38,8 +38,8 @@
                 </div>
             </nav>
         
-          <h2 style="font-family: 'Nunito'; font-weight: bold; text-align:center; padding-top:30px; color: #6521ED;">
-          Final Reflection
+          <h2 style="font-family: 'Nunito'; font-weight: bold; text-align:center; padding-top:30px; color: #4109B5;">
+          Timed Pill Dispenser
           </h2>
 
         <!-- Main Content Row 
@@ -80,28 +80,59 @@
                   </figure>
 
                   <h5 style="color: #4109B5;" >
-Throughout this design process, my team and I focused on addressing a real-world problem faced by many older adults with dementia or memory-related conditions: difficulty managing medications independently. Our goal was to design an automated pill dispenser that could organize medication clearly, rotate automatically, and stop at the correct compartment using a sensor-based system. We defined success based on several measurable criteria, including whether the dispenser could consistently stop at the intended compartment, whether the Hall sensors reliably detected the magnets, and whether the system could support ease of use and independence for the user. Although the prototype was not fully functional in its final integrated form, we were still able to validate important parts of the design process through testing individual systems and evaluating the reliability of the detection mechanism.                  </h5>
-                  <h5 style="color: #4109B5;">
-                  One of our main validation tests involved measuring how consistently the Hall sensors could detect magnets while the wheel rotated. During testing, some magnets were successfully detected while others were missed because of spacing, alignment, and distance between the magnets and sensors. If the design were fully functional, we would quantitatively measure success by tracking the percentage accuracy of successful stops over repeated rotations, as well as measuring response time and alignment precision between compartments. We also evaluated the design qualitatively by considering whether the compartment layout would be intuitive and accessible for users who struggle with memory management. Feedback from others and our own testing process showed that the organizational structure of the 15 compartments was clear and practical, even though the stopping mechanism still required refinement.k reprint, in situations where time or resources are limited, this could create a more significant issue.
+                    <strong> Intial Idea -</strong> 
+                    Older adults experiencing dementia or other memory-related challenges may struggle to remember when to take their medications or whether they have already taken them. This can result in missed doses, accidental double dosing, or increased dependence on caregivers. Our goal was to design a device that could help users manage their medications more independently by combining medication storage, reminders, and automatic dispensing into one system. <br>
 
-                  </h5>
-                  <h5 style="color: #4109B5;"> 
-The iteration cycles taught me that engineering design is rarely a straight path and that failure is often one of the most valuable parts of the process. The CAD redesigns made the biggest difference because they directly impacted the spacing, alignment, and physical feasibility of the rotating system. Through multiple iterations, we realized that even small adjustments in scale or placement could significantly affect sensor performance. Our CAM and electronics changes also helped us better understand how code, motors, and sensors interact in a real physical system rather than only in theory. When our original stopping mechanism proved inconsistent, we pivoted by analyzing the source of the issue instead of abandoning the concept entirely. This led us to consider larger magnets, increased spacing, and scaling up the design to improve reliability.                    </h5>
-             <div style="max-width: 1100px; margin: 0 auto; text-align: justify; padding: 0 10px; color: #102c4f;
-                  font-family: 'Times New Roman', Times, serif;">
-                  <figure style="float: left; width: 300px; margin: 0 15px 10px 0px; text-align: center;">
+                    During our initial brainstorming, we identified several important user needs: remembering when to take medication, managing multiple medications throughout the day, maintaining independence, and making reminders accessible to users who may also have hearing difficulties. From these needs, we developed two main concepts. The first was a rectangular organizer with 14 rows divided between daytime and nighttime medications. The second was a circular dispenser with 14 medication compartments that would rotate automatically based on a timer. After comparing the two ideas, we selected the circular design because its rotating structure provided a better opportunity to automate the dispensing process. <br>
 
-                  <img src="./stepsforpill/step17.png"
+                    Our initial concept consisted of 14 alternating day and night compartments connected to a motor and timing system. At a scheduled medication time, the wheel would rotate to the appropriate compartment and dispense the medication. Once all 14 medication compartments had been used, the device could be refilled for the next cycle.
+                </h5>
+                     <h3 style="font-family: 'Nunito'; font-weight: bold; text-align:center; padding-top:30px; color: #4109B5;"> Building and Improving the Design </h3>
+
+                <figure style="float: left; width: 300px; margin: 0 25px 0 0; text-align: center;">
+                    <img src="./pill_dispenser/cycle2.png"
                        alt="Nametag Example"
-                       style="float: left; width: 300px; height: 250px; margin: 0 10px  15px 0px;"
+                       style="float: left; width: 300px; height: 300px; margin: 0 15px 0 15px;"
                        class="rounded shadow">
                       <figcaption style="font-size: 0.85rem; margin-top: 6px; color: #7A40ED;">
-                          Figure 2: Completed circuit 
+                          Figure 2: Final 3d Design for pill dispenser 
                       </figcaption>
                   </figure> 
 
                   <h5 style="color: #4109B5;">
-If I had more time, I would focus primarily on refining the integration between the mechanical and electrical systems. I would redesign the structure to allow more consistent Hall sensor positioning and improve tolerance between rotating and stationary components. I would also perform more extensive quantitative testing, including repeated automated trials to collect accuracy data and identify failure patterns. In addition, I would experiment with stronger magnets, different sensor placements, and potentially alternative detection systems. Overall, this project taught me the importance of iteration, testing, and adaptability in engineering design. Even though the final prototype was not fully successful in every aspect, the process provided valuable insight into how complex systems are developed, tested, and improved over time. For more detailed information about the design process, CAD models, code, circuit setup, and iteration cycles, feel free to visit our <a href="https://github.com/cndekelengwe/ENGR11A-Design_Projects/blob/main/README.md">repository.</a>                </h5>
+                    We began by creating a simple four-compartment CAD model and 3D-printing it. Instead of immediately building the complete dispenser, this smaller prototype allowed us to test whether a circular rotating design was practical. The prototype helped us evaluate the size of the compartments, accessibility, structural stability, and how easily the wheel could rotate. Testing confirmed that the circular concept was feasible, but it also showed us that precise alignment between compartments would become increasingly important as we added more sections. <br>
+                    Based on what we learned from the first prototype, we redesigned the dispenser as a 15-compartment system. Fourteen compartments were designated for daytime and nighttime medications, while the additional compartment served as a refill/reminder position. We created evenly spaced sections and added locations in the center of the model for magnets. These magnets became an important part of our plan for determining the wheel's position as it rotated. 
+
+                    The next challenge was determining how the dispenser would know when to stop rotating. We used an Arduino and Hall sensors to detect magnets positioned within the rotating structure. We developed and tested code that could recognize when a magnet passed the sensor and use that detection as a signal for the system to stop. Testing the code separately allowed us to confirm that magnet detection was possible before integrating it with the motor and physical dispenser. <br>
+                    The final stage involved bringing the mechanical and electrical portions of the project together. We 3D-printed the larger model, assembled the motor and rotating components, positioned the magnets and Hall sensors, and connected the circuit. This stage revealed one of the largest challenges of the project: a system that works correctly in code does not necessarily behave the same way once physical components are introduced. During testing, some magnets were detected successfully while others were missed because of differences in spacing, alignment, and the distance between the magnets and Hall sensors.
+                  </h5>
+                  <figure style="float: right; width: 300px; margin: 0 0 10px 25px; text-align: center;">
+
+                  <img src="./stepsforpill/step17.png"
+                       alt="Nametag Example"
+                       style="float: right; width: 300px; height: 300px; margin: 0 0 15px 15px;"
+                       class="rounded shadow">
+                      <figcaption style="font-size: 0.85rem; margin-top: 6px; color: #7A40ED;">
+                          Figure 3: Completed circuit 
+                      </figcaption>
+                  </figure>
+                  <h5 style="color: #4109B5;"> 
+                    The iteration cycles taught me that engineering design is rarely a straight path and that failure is often one of the most valuable parts of the process. The CAD redesigns made the biggest difference because they directly impacted the spacing, alignment, and physical feasibility of the rotating system. Through multiple iterations, we realized that even small adjustments in scale or placement could significantly affect sensor performance. Our CAM and electronics changes also helped us better understand how code, motors, and sensors interact in a real physical system rather than only in theory. When our original stopping mechanism proved inconsistent, we pivoted by analyzing the source of the issue instead of abandoning the concept entirely. This led us to consider larger magnets, increased spacing, and scaling up the design to improve reliability.  <br>
+                    Our final prototype was a 15-compartment rotating pill dispenser designed to organize 14 daytime and nighttime medication doses with an additional refill/reminder compartment. The system combined a 3D-printed rotating structure, a motor, magnets, Hall sensors, and Arduino control. The intended operation was for the motor to rotate the dispenser automatically until the Hall sensor detected the magnet associated with the next compartment, allowing the system to stop at the correct medication position.</h5>
+             <div style="max-width: 1100px; margin: 0 auto; text-align: justify; padding: 0 10px; color: #102c4f;
+                  font-family: 'Times New Roman', Times, serif;">
+                  
+            <h3 style="font-family: 'Nunito'; font-weight: bold; text-align:center; padding-top:30px; color: #4109B5;"> What I Would Change </h3>
+
+                  <h5 style="color: #4109B5;">
+Although we successfully built and tested the individual components, the final integrated prototype was not as consistent as intended. The Hall sensors detected the magnets, but differences in spacing and alignment sometimes caused missed detections. This prevented the dispenser from reliably stopping at every intended compartment. However, the prototype demonstrated that the overall concept was feasible and helped us identify where further refinement was needed. <br>
+
+If I continued this project, I would focus on improving the integration between the mechanical and electrical components. I would redesign the sensor and magnet placement for more consistent alignment and experiment with stronger magnets, different spacing, and adjustments to the size of the dispenser.
+
+I would also perform repeated automated tests to measure how accurately the dispenser stops at each compartment. This would help identify failure patterns and determine which design changes improve reliability.
+
+The biggest lesson from this project was that components that work individually may behave differently once integrated into a complete system. If I redesigned the dispenser, I would test the mechanical and electrical systems together earlier and account for physical tolerances throughout the design process.
+ For more detailed information about the design process, CAD models, code, circuit setup, and iteration cycles, feel free to visit our <a href="https://github.com/cndekelengwe/ENGR11A-Design_Projects/blob/main/README.md">repository.</a>                </h5>
               </div>
 
             
